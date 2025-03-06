@@ -5,15 +5,15 @@ public class Person {
     private int age;
     private String profession;
 
-    public Person(String firstName, int age, String newValue) {
+    public Person(String firstName, int age, String profession) {
         this.firstName = firstName;
-        this.profession = newValue;
+        this.profession = profession;
         this.age = age;
 
     }
 
-    public void setProfession(String newValue) {
-        this.profession = newValue;
+    public void setProfession(String profession) {
+        this.profession = profession;
     }
 
     @Override
