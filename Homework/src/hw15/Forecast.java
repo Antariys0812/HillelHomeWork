@@ -18,4 +18,5 @@ public class Forecast implements Advise {
             }
         }
     }
+
 }

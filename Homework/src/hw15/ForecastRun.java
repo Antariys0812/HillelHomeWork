@@ -14,4 +14,5 @@ public class ForecastRun {
         frc.advise(Day.SUNDAY);
 
     }
+
 }
